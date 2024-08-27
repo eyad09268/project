@@ -103,7 +103,7 @@ body {
 
   filter: blur(10px) invert(100%);
 
-  mask-image: radial-gradient(ellipse at 100% 0%, black 40%, transparent 70%);
+  mask-image: radial-gradient(ellipse at 100% 0%, #ffffff 40%, #ffffff3b 70%);
   &::after {
     content: "";
     position: absolute;
