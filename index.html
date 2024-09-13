@@ -57,7 +57,11 @@
 </body>
 
 </html>
-<audio hidden controls autoplay loop>
-  <source src="https://github.com/eyad09268/EYAD/blob/main/%5BYT2mp3.info%5D%20-%20%D8%A8%D8%B9%D9%88%D8%AF%D8%A9%20%D9%8A%D8%A7%20%D8%A8%D9%84%D8%A7%D8%AF%D9%8A%20_%20Music%208D%20_%20Wegz%20-%20B3oda%20Ya%20Belady%20_%20(320kbps).mp3?raw=true" type="audio/mpeg">
-</source></audio>
-
+<audio id="myAudio" src="https://raw.githubusercontent.com/eyad09268/EYAD/main/%5BYT2mp3.info%5D%20-%20%D8%A8%D8%B9%D9%88%D8%AF%D8%A9%20%D9%8A%D8%A7%20%D8%A8%D9%84%D8%A7%D8%AF%D9%8A%20_%20Music%208D%20_%20Wegz%20-%20B3oda%20Ya%20Belady%20_%20(320kbps).mp3"></audio>
+<script>
+  window.addEventListener('DOMContentLoaded', (event) => {
+    var audio = document.getElementById('myAudio');
+    audio.autoplay = true;
+    audio.load();
+  });
+</script>
